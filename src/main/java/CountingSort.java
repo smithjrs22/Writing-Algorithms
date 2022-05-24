@@ -1,7 +1,7 @@
 // Java implementation of Counting Sort
 class CountingSort {
     //sort method will take parameter and sort
-    public void sort(char arr[])
+    public void countSort(char arr[])
     {
         int n = arr.length;
 
@@ -44,7 +44,7 @@ class CountingSort {
         char arr[] = { 'g', 'e', 'e', 'k', 's', 'f', 'o',
                 'r', 'g', 'e', 'e', 'k', 's' };
 
-        object.sort(arr);
+        object.countSort(arr);
 
         System.out.print("In lexicographical order, string will be ");
         for (int i = 0; i < arr.length; ++i)
